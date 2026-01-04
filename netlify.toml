@@ -1,5 +1,10 @@
 [[redirects]]
   from = "/api/*"
-  to = "https://myfinancesrd.somee.com/:splat"
+  to = "https://myfinancesrd.somee.com/api/:splat"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
