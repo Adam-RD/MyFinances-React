@@ -15,6 +15,14 @@ const App = () => {
       <main className="mx-auto max-w-6xl px-4 py-8">
         <AppRouter />
       </main>
+      <footer className="border-t border-slate-200 bg-white/70">
+        <div className="mx-auto flex max-w-6xl flex-col items-center gap-1 px-4 py-4 text-sm text-slate-600 sm:flex-row sm:justify-between">
+          <span className="font-semibold text-slate-800">MyFinances</span>
+          <span className="text-xs sm:text-sm">
+            Desarrollado por <span className="font-semibold text-indigo-700">Adam Diaz</span>
+          </span>
+        </div>
+      </footer>
     </div>
   );
 };
